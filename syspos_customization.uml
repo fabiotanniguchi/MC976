@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_anQ9IHMvEeiROJMRP1FllA" name="syspos_customization">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_bAGT4HMvEeiROJMRP1FllA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_dERLEHMvEeiROJMRP1FllA" name="ExtendedData">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_upjxUHMwEeiROJMRP1FllA" name="className" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_WFnPgHMyEeiROJMRP1FllA" name="property" type="_2yv7cHMvEeiROJMRP1FllA" isUnique="false">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bS_TUHMyEeiROJMRP1FllA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bTJEUHMyEeiROJMRP1FllA" value="*"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_xDergHMvEeiROJMRP1FllA" name="CustomData">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Mu3_EHMxEeiROJMRP1FllA" name="className" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_OPWTUHMxEeiROJMRP1FllA" name="baseClass" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_cd0uwHMyEeiROJMRP1FllA" name="property" type="_2yv7cHMvEeiROJMRP1FllA" isUnique="false">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cd0uwXMyEeiROJMRP1FllA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cd0uwnMyEeiROJMRP1FllA" value="*"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_-ypKMHMvEeiROJMRP1FllA" name="PropertyType" visibility="package">
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_NyJPYHMwEeiROJMRP1FllA" name="STRING"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_Oyw-4HMwEeiROJMRP1FllA" name="LONG"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_P2g64HMwEeiROJMRP1FllA" name="DOUBLE"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_Q7HygHMwEeiROJMRP1FllA" name="BOOLEAN"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_2yv7cHMvEeiROJMRP1FllA" name="Property" visibility="package">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_6tlZUHMvEeiROJMRP1FllA" name="type" visibility="package" type="_-ypKMHMvEeiROJMRP1FllA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ipEa8HMwEeiROJMRP1FllA" name="name" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+  </packagedElement>
+</uml:Model>
